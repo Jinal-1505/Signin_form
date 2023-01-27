@@ -1,0 +1,162 @@
+body {
+    /* background-image: url("helpcenter.png"); */
+    height: 100vh;
+    /* background-repeat: no-repeat;
+    /* background-size: cover; */
+    text-align: center;
+    /* margin: 50px 0px;
+    padding: 0px; */
+    position: relative;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(41, 111, 136);
+    overflow: hidden;
+}
+
+.svg-tag {
+    background-size: cover;
+
+    position: absolute;
+    width: 100vw;
+    /* width: 1280px; */
+
+    bottom: 0;
+
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.login-text {
+    /* width: 90%; */
+    width: 70%;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    /* color: white; */
+    background-color: rgb(41, 111, 136);
+}
+
+.password-text {
+    width: 70%;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(41, 111, 136);
+}
+
+::placeholder {
+    color: white;
+}
+
+.checkbox-form {
+    display: inline;
+    color: rgb(41, 111, 136);
+}
+
+.forgetpass {
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+
+.btn-login {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    color: rgb(70, 70, 70);
+    margin: auto;
+    margin-top: 15px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(32, 223, 127);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 40%;
+}
+
+input {
+    display: block;
+}
+
+#remember {
+    color: rgb(41, 111, 136);
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    accent-color: rgb(41, 111, 136);
+}
+
+#check {
+    background-color: black;
+}
+
+.formBx {
+
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin-top: 50%; */
+    /* margin-top: 200px; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    /* line-height: 20px; */
+    /* margin: auto; */
+    /* margin-top: 50%; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    min-width: 100px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+form {
+    display: inline-block;
+    /* height: max-content; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* width: max-content; */
+    /* width: 100%; */
+
+    /* display: inline-block; */
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 
+section {
+    height: 100vh;
+
+} */
